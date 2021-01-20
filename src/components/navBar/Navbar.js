@@ -16,7 +16,7 @@ export default function Navbar() {
                     <li>
                         <a href="#" className="desktop-item">Paquetes turísticos</a>
                         <input type="checkbox" id="showDrop" />
-                        <label htmlFor="showDrop" className="mobile-item">Dropdown Menu</label>
+                        <label htmlFor="showDrop" className="mobile-item">Paquetes turisticos</label>
                         <ul className="drop-menu">
                             <li><Link to="ruta365/aventura"><a>Aventura</a></Link></li>
                             <li><Link to="ruta365/cultural"><a>Cultural</a></Link></li>
