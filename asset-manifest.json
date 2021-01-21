@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/ruta365/static/css/main.d7234905.chunk.css",
-    "main.js": "/ruta365/static/js/main.1a95c482.chunk.js",
-    "main.js.map": "/ruta365/static/js/main.1a95c482.chunk.js.map",
+    "main.css": "/ruta365/static/css/main.c1cae689.chunk.css",
+    "main.js": "/ruta365/static/js/main.20ee4281.chunk.js",
+    "main.js.map": "/ruta365/static/js/main.20ee4281.chunk.js.map",
     "runtime-main.js": "/ruta365/static/js/runtime-main.cc0b0992.js",
     "runtime-main.js.map": "/ruta365/static/js/runtime-main.cc0b0992.js.map",
-    "static/js/2.a1071f6f.chunk.js": "/ruta365/static/js/2.a1071f6f.chunk.js",
-    "static/js/2.a1071f6f.chunk.js.map": "/ruta365/static/js/2.a1071f6f.chunk.js.map",
+    "static/js/2.fd663e05.chunk.js": "/ruta365/static/js/2.fd663e05.chunk.js",
+    "static/js/2.fd663e05.chunk.js.map": "/ruta365/static/js/2.fd663e05.chunk.js.map",
     "index.html": "/ruta365/index.html",
-    "static/css/main.d7234905.chunk.css.map": "/ruta365/static/css/main.d7234905.chunk.css.map",
-    "static/js/2.a1071f6f.chunk.js.LICENSE.txt": "/ruta365/static/js/2.a1071f6f.chunk.js.LICENSE.txt",
+    "static/css/main.c1cae689.chunk.css.map": "/ruta365/static/css/main.c1cae689.chunk.css.map",
+    "static/js/2.fd663e05.chunk.js.LICENSE.txt": "/ruta365/static/js/2.fd663e05.chunk.js.LICENSE.txt",
     "static/media/home.css": "/ruta365/static/media/portada.cbeeaa3b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cc0b0992.js",
-    "static/js/2.a1071f6f.chunk.js",
-    "static/css/main.d7234905.chunk.css",
-    "static/js/main.1a95c482.chunk.js"
+    "static/js/2.fd663e05.chunk.js",
+    "static/css/main.c1cae689.chunk.css",
+    "static/js/main.20ee4281.chunk.js"
   ]
 }
