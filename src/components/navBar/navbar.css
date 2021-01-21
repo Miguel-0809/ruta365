@@ -10,7 +10,7 @@ nav{
   z-index: 99;
   width: 100%;
   
-  background: #d76754;
+  background: rgba(215, 103, 84, 1);
 }
 nav .wrapper{
   position: relative;
@@ -45,14 +45,14 @@ nav .wrapper{
   transition: all 0.3s ease;
 }
 .nav-links li a:hover{
-  background: #f1ce53;
+  background:  rgba(187, 110, 97, 0.9);
 }
 .nav-links .mobile-item{
   display: none;
 }
 .nav-links .drop-menu{
   position: absolute;
-  background: #242526;
+  background:  rgba(215, 103, 84, 0.7);
   width: 180px;
   line-height: 45px;
   top: 85px;
@@ -145,7 +145,7 @@ nav .wrapper{
     max-width: 350px;
     top: 0;
     left: -100%;
-    background: #242526;
+    background:  rgba(215, 103, 84, 0.9);
     display: block;
     padding: 50px 10px;
     line-height: 50px;
@@ -198,6 +198,7 @@ nav .wrapper{
   }
   .nav-links .desktop-item{
     display: none;
+    background-color:  rgba(215, 103, 84, 0.7);
   }
   .nav-links .mobile-item{
     display: block;
@@ -210,7 +211,7 @@ nav .wrapper{
     transition: all 0.3s ease;
   }
   .nav-links .mobile-item:hover{
-    background: #3A3B3C;
+    background: rgba(215, 103, 84, 0.9);
   }
   .drop-menu li{
     margin: 0;

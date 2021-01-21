@@ -7,7 +7,7 @@ export default function Container(props) {
         <div>
             <Router>
                 <Navbar />
-                <div>
+                <div className="pt-5">
                     {props.children}
                 </div>
             </Router>
