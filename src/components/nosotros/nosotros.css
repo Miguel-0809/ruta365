@@ -1,0 +1,24 @@
+.Nosotros{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 20px;
+}
+
+.imagen{
+    width: 100%;
+    padding: 0 30px;
+}
+
+.imagen img{
+    width: 100%;
+    margin-right: 30px;
+}
+
+.Presentacion{
+    width: 100%;
+}
+
+.Presentacion p{
+    padding: 20px;
+    font-size: 20px;
+}

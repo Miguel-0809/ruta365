@@ -21,7 +21,7 @@ export default function Contactanos(props) {
 
                         <div className="mb-3">
                             <label htmlFor="number">Teléfono</label>
-                            <input type="number" className="form-control" id="number" placeholder="Ingrese su teléfono" />
+                            <input type="tel" className="form-control" id="number" placeholder="Ingrese su teléfono" />
                         </div>
 
                         <div>
