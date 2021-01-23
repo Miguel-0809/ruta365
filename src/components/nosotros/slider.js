@@ -17,12 +17,17 @@ const items = [
 const Gallery = () => {
     return (
         <AliceCarousel
+            autoPlay
+            
+            autoPlayStrategy="none"
+            autoPlayInterval={1000}
+            animationDuration={1000}
             animationType="fadeout"
-            animationDuration={800}
-            disableButtonsControls
             infinite
+            touchTracking={false}
+            disableDotsControls
+            disableButtonsControls
             items={items}
-            mouseTracking
         />
     );
 }

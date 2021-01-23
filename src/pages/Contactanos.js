@@ -2,13 +2,17 @@ import React from 'react'
 import "../components/contactanos/contactanos.css"
 
 export default function Contactanos(props) {
+    const HandleInput=(e)=>{
+        e.preventDefault();
+    }
+
     return (
         <div>
             <h2 className="text-center pt-5 mb-5">Contáctanos</h2>
 
             <div className="contact-container">
 
-                <form className="contact-card" >
+                <form className="contact-card" onSubmit={HandleInput} >
                     <fieldset className="border p-5">
                         <label htmlFor="Nombre" >Nombre</label>
                         <div id="Nombre" className="mb-3">

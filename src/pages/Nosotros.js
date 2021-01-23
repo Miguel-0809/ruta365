@@ -1,21 +1,20 @@
 import React from 'react'
-import Portada from '../images/nosotros.jpg'
 
 import '../components/nosotros/nosotros.css'
 
 import Img2 from '../images/2.jpg'
+import Slider from '../components/nosotros/slider'
 
 export default function Nosotros() {
 
     
     return (
         <div >
-            <img src={Portada} alt="portada" style={{ width: '100%', height: '70vh' }} />
+            <div className="imagen">
+                   <Slider/>
+            </div>     
+                
             <div className="Nosotros">
-
-                <div className="imagen">
-                    <img src={Img2} alt="Acueductos de Cantalloc" name="fotos1"/>
-                </div>            
 
                 <div className="Presentacion">
                     <p>

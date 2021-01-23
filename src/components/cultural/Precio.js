@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Precio() {
     return (
-        <div className="container pb-5 precio">
+        <div className="precio">
 
         <div>
             <table>

@@ -9,6 +9,8 @@ import Naturaleza from "./Naturaleza"
 import Nosotros from "./Nosotros"
 import Contactanos from "./Contactanos"
 
+import Slider from '../components/nosotros/slider'
+
 
 //Extra style
 import "../components/home/home.css"
@@ -18,11 +20,17 @@ export default function Inicio() {
         <Container>
             <Route exact path="/ruta365/" render={() => {
                 return (
-                    <div className="inicio" >
-                        <div className="w3-display-bottomleft w3-container w3-amber w3-hover-orange " style={{ bottom: '10%', opacity: '0.7', width: '60%' }}>
-                            <h2><b>Explorando<br />nuevos horizontes</b></h2>
-                        </div>
+                    <div>
+                        <div className="inicio" >
+                            <div className="pictures">
+                                <Slider />
+                            </div>
 
+                            <div className="w3-display-bottomleft w3-container w3-amber w3-hover-orange " style={{ bottom: '10%', opacity: '0.7', width: '60%' }}>
+                                <h2><b>Explorando<br />nuevos horizontes</b></h2>
+                            </div>
+
+                        </div>
                     </div>
 
                 );

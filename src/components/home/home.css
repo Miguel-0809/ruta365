@@ -1,9 +1,8 @@
-.inicio{
-    background-image: url("../../images/portada.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.pictures{
+    width: 100%;
+}
+
+.pictures img{
     width: 100%;
     height: 100vh;
 }
-
