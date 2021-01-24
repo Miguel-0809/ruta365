@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import "../components/contactanos/contactanos.css"
 
 export default function Contactanos(props) {
+  
     const HandleInput=(e)=>{
+        
         e.preventDefault();
+        let value=window.confirm("¿Confirmar envío?");
     }
 
     return (
@@ -16,21 +19,40 @@ export default function Contactanos(props) {
                     <fieldset className="border p-5">
                         <label htmlFor="Nombre" >Nombre</label>
                         <div id="Nombre" className="mb-3">
-                            <input type="text" className="form-control" placeholder="Ingrese su nombre completo" />
+                            <input 
+                            type="text" 
+                            className="form-control" 
+                            placeholder="Ingrese su nombre completo"
+                            />
                         </div>
                         <div className="mb-3">
                             <label htmlFor="exampleInputEmail1">Email</label>
-                            <input type="password" className="form-control" id="exampleInputEmail1" placeholder="Ingrese su correo electrónico" />
+                            <input 
+                            type="email" 
+                            className="form-control" 
+                            id="exampleInputEmail1" 
+                            placeholder="Ingrese su correo electrónico"
+                            />
                         </div>
 
                         <div className="mb-3">
                             <label htmlFor="number">Teléfono</label>
-                            <input type="tel" className="form-control" id="number" placeholder="Ingrese su teléfono" />
+                            <input 
+                            type="tel" 
+                            className="form-control" 
+                            id="number" 
+                            placeholder="Ingrese su teléfono"
+                            />
                         </div>
 
                         <div>
                             <label htmlFor="number">Mensaje</label>
-                            <textarea className="form-control" id="exampleTextarea" rows={3} defaultValue={""} placeholder="Ingrese su mensaje" /><br />
+                            <textarea 
+                            className="form-control" 
+                            id="exampleTextarea" 
+                            rows={3} defaultValue={""} 
+                            placeholder="Ingrese su mensaje"
+                            /><br />
                         </div>
 
                         <div className="d-flex justify-content-center">
@@ -46,7 +68,8 @@ export default function Contactanos(props) {
                     <h3 className="text-center">¡Gracias por contactarnos!</h3>
                     
                     <p><i className="fas fa-map-marked-alt"></i> Lima, Perú</p>
-                    <p className="border-bottom mb-3"><i className="fas fa-envelope"></i> ruta365.ica@gmail.com</p>
+                    <p><i className="fas fa-envelope"></i> ruta365.ica@gmail.com</p>
+                    <p className="border-bottom mb-3"><i class="fas fa-phone-alt"></i> 970272177</p>
 
                     <h6 className="text-center">Tambien puedes encontrarnos en</h6>
                     <div className='row justify-content-center'>

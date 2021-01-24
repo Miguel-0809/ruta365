@@ -1,7 +1,7 @@
 
 .principal{
     margin: -25px 0vh;
-    background-color: rgba(214, 187, 157, 0.4);
+    background-color: rgba(240, 222, 202, 0.4);
 }
 
 .division{
@@ -11,7 +11,7 @@
 }
 
 .division div:first-child{
-    padding: 15px 10px;
+    padding: 0px 10px;
 }
 
 .pc-title{
@@ -19,7 +19,6 @@
     text-align: center;
     font-weight: bold;
     font-style: italic;
-    background-color: rgba(157, 214, 209, 0.767);
 }
 .responsive-title{
     display: none;
@@ -27,7 +26,6 @@
 
 
 .picture{
-    margin: 25px 0;
     width: 60%;
     
 }
@@ -36,7 +34,6 @@
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 button{
     width: 100%;
@@ -97,6 +94,10 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
     .description{
         margin: 0 30px;
+    }
+
+    .btn-link{
+        border: 1px solid white;
     }
 
     .pc-title{
