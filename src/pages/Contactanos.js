@@ -67,7 +67,7 @@ export default function Contactanos(props) {
                 <div className="contact-card p-4" >
                     <h3 className="text-center">¡Gracias por contactarnos!</h3>
                     
-                    <p><i className="fas fa-map-marked-alt"></i> Lima, Perú</p>
+                    <p><i className="fas fa-map-marked-alt"></i> Ica, Perú</p>
                     <p><i className="fas fa-envelope"></i> ruta365.ica@gmail.com</p>
                     <p className="border-bottom mb-3"><i class="fas fa-phone-alt"></i> 970272177</p>
 
