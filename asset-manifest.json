@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ruta365/static/css/main.90d7337f.chunk.css",
-    "main.js": "/ruta365/static/js/main.8ba84aaa.chunk.js",
-    "main.js.map": "/ruta365/static/js/main.8ba84aaa.chunk.js.map",
+    "main.js": "/ruta365/static/js/main.fc50598b.chunk.js",
+    "main.js.map": "/ruta365/static/js/main.fc50598b.chunk.js.map",
     "runtime-main.js": "/ruta365/static/js/runtime-main.cc0b0992.js",
     "runtime-main.js.map": "/ruta365/static/js/runtime-main.cc0b0992.js.map",
     "static/css/2.b43c0b09.chunk.css": "/ruta365/static/css/2.b43c0b09.chunk.css",
@@ -33,6 +33,6 @@
     "static/css/2.b43c0b09.chunk.css",
     "static/js/2.33d9e525.chunk.js",
     "static/css/main.90d7337f.chunk.css",
-    "static/js/main.8ba84aaa.chunk.js"
+    "static/js/main.fc50598b.chunk.js"
   ]
 }
